@@ -143,12 +143,12 @@ section {
 
 /* Hero Section */
 .hero {
-    background: var(--light-bg);
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
     padding-top: 80px;
-    color: var(--text-primary);
+    color: white;
 }
 
 .hero-grid {
