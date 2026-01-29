@@ -8,7 +8,7 @@ Tech enthusiast, full-stack explorer, and a full-time student. I specialize in b
 
 ### Experience Highlights
 - 🎓 **2+ Years** of web development experience
-- 💼 **10+ Projects** completed successfully
+- 💼 **4 Projects** completed successfully
 - ⭐ **100% Client Satisfaction** rating
 - 🚀 Remote contracts and freelance work
 
