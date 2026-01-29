@@ -357,17 +357,25 @@
                     </div>
                 </div>
                 <form class="contact-form" action="https://formsubmit.co/adityaheru.wijaksono@gmail.com" method="POST">
+                    <!-- Security Settings -->
                     <input type="hidden" name="_subject" value="Pesan Baru dari Portfolio Website">
-                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_captcha" value="true">
                     <input type="hidden" name="_next" value="https://rurururu01.github.io/aditya-herumurti/#contact">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_autoresponse" value="Terima kasih! Pesan Anda telah diterima. Saya akan segera merespons.">
+                    
+                    <!-- Honeypot for bot protection -->
+                    <input type="text" name="_honey" style="display:none">
+                    
+                    <!-- Actual form fields -->
                     <div class="form-group">
-                        <input type="text" name="name" placeholder="Nama Anda" required>
+                        <input type="text" name="name" placeholder="Nama Anda" required maxlength="100" pattern="[A-Za-z\s]+" title="Hanya huruf dan spasi">
                     </div>
                     <div class="form-group">
-                        <input type="email" name="email" placeholder="Email Anda" required>
+                        <input type="email" name="email" placeholder="Email Anda" required maxlength="100">
                     </div>
                     <div class="form-group">
-                        <textarea rows="5" name="message" placeholder="Pesan Anda" required></textarea>
+                        <textarea rows="5" name="message" placeholder="Pesan Anda" required maxlength="1000"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Kirim Pesan</button>
                 </form>
