@@ -280,7 +280,7 @@ section {
 .profile-placeholder {
     width: 350px;
     height: 350px;
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    background: transparent;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -291,11 +291,7 @@ section {
 }
 
 .profile-placeholder::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-    animation: shimmer 3s infinite;
+    display: none;
 }
 
 .profile-placeholder img {
